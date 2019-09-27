@@ -1,0 +1,26 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+    li{
+      margin: 10px;
+    }
+    li.orange{
+      background: orange;
+      padding: 15px;
+
+    }
+    li.red{
+      background: red;
+      padding: 15px;
+    }
+}
