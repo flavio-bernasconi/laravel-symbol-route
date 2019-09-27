@@ -16,3 +16,9 @@
   </ul>
 
 @endsection
+
+
+@section('link')
+  <a href="{{$link}}">link</a>
+
+@endsection

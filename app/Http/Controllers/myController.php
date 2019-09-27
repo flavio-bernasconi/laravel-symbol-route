@@ -13,13 +13,14 @@ class myController extends Controller
     $arr = [];
     $class = "orange";
     $title = "numeri";
+    $link = "/cube/letter";
 
     for ($i=0; $i <= 10 ; $i++) {
       $number = $i;
       $arr[] = $number;
     }
 
-    return view('myView', compact('arr','class','title'));
+    return view('myView', compact('arr','class','title','link'));
 
   }
 
@@ -28,8 +29,9 @@ class myController extends Controller
     $arr =range('A', 'Z');
     $class = "red";
     $title = "letters";
+    $link = "/cube/number";
 
-    return view('myView', compact('arr','class','title'));
+    return view('myView', compact('arr','class','title','link'));
 
   }
 

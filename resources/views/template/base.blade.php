@@ -12,5 +12,7 @@
 
     @yield('content')
 
+    <a href="{{$link}}">link</a>
+
   </body>
 </html>
